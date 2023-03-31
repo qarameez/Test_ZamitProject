@@ -43,13 +43,13 @@ class Test_zcas_admission:
         # 1 Enter Child's Information
         # Enter first name
         self.driver.find_element(By.ID, "firstname").clear()
-        self.driver.find_element(By.ID, "firstname").send_keys("Raju ")
+        self.driver.find_element(By.ID, "firstname").send_keys("Amit ")
 
         time.sleep(2)
         print("Enter first name succesfully")
         # Enter Last Name
         self.driver.find_element(By.ID,"lastname").clear()
-        self.driver.find_element(By.ID,"lastname").send_keys("Kumar")
+        self.driver.find_element(By.ID,"lastname").send_keys("bhagel")
         time.sleep(2)
         print("Enter Last name succesfully")
 
@@ -203,7 +203,7 @@ class Test_zcas_admission:
         self.driver.find_element(By.XPATH,"//input[@id='snamestep2']").send_keys("Zamit school")
         time.sleep(6)
         self.driver.find_element(By.XPATH,"//body/div[3]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/i[1]").click()
-        time.sleep(3)
+        time.sleep(5)
 
 
         # search school
@@ -212,4 +212,4 @@ class Test_zcas_admission:
 
         self.driver.find_element(By.XPATH,"//body/div[3]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[2]/div[2]/button[2]").click()
         time.sleep(3)
-
+        print("Student Admimisson ")
