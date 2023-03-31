@@ -212,4 +212,4 @@ class Test_zcas_admission:
 
         self.driver.find_element(By.XPATH,"//body/div[3]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[2]/div[2]/button[2]").click()
         time.sleep(3)
-        print("Student Admimisson.......... ")
+        print("Student Admimisson.............. ")
